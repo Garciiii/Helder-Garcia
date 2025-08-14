@@ -1,6 +1,5 @@
 import { tr } from 'framer-motion/client';
 import profilePic from '../assets/projects/heldergarciaProfile.webp';
-
 import { HERO_CONTENT } from '../constants/index.js';
 import { motion, stagger } from 'framer-motion';
 
@@ -60,7 +59,7 @@ const Hero = () => {
                         </motion.p>
                         <motion.a 
                            variants={childVariants}
-                           href="/resume.pdf"
+                           href="../public/Helder-Garcia-CV.pdf"
                            target='_blank'
                             rel='noopener noreferrer'
                             download
